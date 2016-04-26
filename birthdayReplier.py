@@ -34,7 +34,7 @@ def postReply(postID):
     #like post
     graph.post(postID+'/likes')
     #comment post
-    graph.post(postID+'/comments',message= randomReply[rand.choice(randomReply)])
+    graph.post(postID+'/comments',message= rand.choice(randomReply))
 
 """ end subsidary functions """
 

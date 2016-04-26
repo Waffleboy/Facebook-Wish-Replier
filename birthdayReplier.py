@@ -2,7 +2,7 @@
 """
 Created on Mon Apr 25 15:42:30 2016
 
-@author: Thiru
+@author: Waffleboy
 """
 from facepy import GraphAPI
 import random as rand

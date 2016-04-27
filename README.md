@@ -1,6 +1,6 @@
 # Facebook-Wish-Replier
 
-This script saves you the trouble of manually commenting and liking every birthday wish on your wall. It automatically likes + comments on all these posts.
+This script saves you the trouble of manually commenting and liking every birthday wish on your wall. It automatically likes + comments on all these posts, with the option of saving the names of the people who wished you to a CSV file.
 
 #Requirements
 
@@ -14,9 +14,18 @@ Simply replace the TOKEN field with your API key attained from https://developer
 2) publish_actions
 3) user_posts
 
-Optional: 
+Arguments:
 
-Edit hitWords with any new post keywords to check for (eg, 'hpy bdayyyy') and edit randomReply with new phrases you want to reply with.
+1) Save (Default False): If True, Save names of those who wished you to CSV
+
+2) Silent(Default True): If False, print progress to console.
+
+
+#Optional: 
+
+--> Edit hitWords with any new post keywords to check for (eg, 'hpy bdayyyy')
++
+--> Edit randomReply with new phrases you want to reply with.
 
 Then simply run the script! :)
 

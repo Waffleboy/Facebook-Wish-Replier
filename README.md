@@ -2,13 +2,21 @@
 
 This script saves you the trouble of manually commenting and liking every birthday wish on your wall. It automatically likes + comments on all these posts.
 
+#Requirements
+
+facepy
+
 #Usage:
 
 Simply replace the TOKEN field with your API key attained from https://developers.facebook.com/tools/explorer/ . Please ensure that the key has the following checked:
 
-1) 'user_birthday'
-2) 'publish_actions'
-3) 'user_posts' 
+1) user_birthday
+2) publish_actions
+3) user_posts
+
+Optional: 
+
+Edit hitWords with any new post keywords to check for (eg, 'hpy bdayyyy') and edit randomReply with new phrases you want to reply with.
 
 Then simply run the script! :)
 

@@ -30,3 +30,7 @@ Arguments:
 Then simply run the script! :)
 
 
+Tags:
+facebook auto birthday wish replier, automatically reply facebook birthday wishes, auto fb wish replier
+
+
